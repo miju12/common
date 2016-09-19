@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="android_vendor_pa" />
+  <project name="AOSPA-ghost/android_vendor_pa" path="vendor/pa" remote="github" revision="marshmallow-caf">
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <project name="AOSPA-ghost/android_device_motorola_ghost" path="device/motorola/ghost" remote="github" revision="marshmallow-caf"/>
+  <project name="AOSPA-ghost/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="marshmallow-caf"/>
+  <project name="AOSPA-ghost/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="github" revision="marshmallow-caf"/>
+  <project name="AOSPA-ghost/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="marshmallow-caf"/>
+  <project name="android_external_stlport" path="external/stlport" remote="aospa" revision="marshmallow-caf"/>
+  <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0"/>
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="aospa" revision="marshmallow-caf"/>
+</manifest>
