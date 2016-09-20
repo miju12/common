@@ -5,6 +5,11 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
+  <remove-project name="android_build">
+  <project path="build" name="AOSPA-ghost/android_build" remote="github" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
   <project name="AOSPA-ghost/android_device_motorola_ghost" path="device/motorola/ghost" remote="github" revision="marshmallow-caf"/>
   <project name="AOSPA-ghost/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="marshmallow-caf"/>
   <project name="AOSPA-ghost/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="github" revision="marshmallow-caf"/>
