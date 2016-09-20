@@ -5,7 +5,7 @@
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
 
-  <remove-project name="android_build">
+  <remove-project name="android_build" />
   <project path="build" name="AOSPA-ghost/android_build" remote="github" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
