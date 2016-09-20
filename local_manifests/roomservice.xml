@@ -11,5 +11,4 @@
   <project name="AOSPA-ghost/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="marshmallow-caf"/>
   <project name="android_external_stlport" path="external/stlport" remote="aospa" revision="marshmallow-caf"/>
   <project name="CyanogenMod/android_external_sony_boringssl-compat" path="external/sony/boringssl-compat" remote="github" revision="cm-13.0"/>
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="aospa" revision="marshmallow-caf"/>
 </manifest>
