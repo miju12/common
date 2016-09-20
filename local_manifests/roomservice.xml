@@ -6,7 +6,7 @@
   </project>
 
   <remove-project name="android_build" />
-  <project path="build" name="AOSPA-ghost/android_build" remote="github" >
+  <project path="build" name="AOSPA-ghost/android_build" remote="github" revision="marshmallow-caf" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
