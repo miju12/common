@@ -8,6 +8,6 @@
   </project>
 
   <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
-  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-13.0" />
+  <project name="AOSPA-ghost/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-13.0" />
 
 </manifest>
