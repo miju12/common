@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="android_vendor_pa" path="vendor/pa" />
-  <project name="AOSPA-ghost/android_vendor_pa" path="vendor/pa" remote="github" revision="marshmallow-caf">
-    <copyfile src="build.sh" dest="rom-build.sh" />
-  </project>
 
-  <remove-project name="android_build" />
-  <project name="AOSPA-ghost/android_build" path="build" remote="github" revision="marshmallow-caf" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
-  <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
-  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-13.0" />
-
+  <!-- Default ghost repos -->
   <project name="AOSPA-ghost/android_device_motorola_ghost" path="device/motorola/ghost" remote="github" revision="marshmallow-caf"/>
   <project name="AOSPA-ghost/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="marshmallow-caf"/>
   <project name="AOSPA-ghost/android_kernel_motorola_ghost" path="kernel/motorola/ghost" remote="github" revision="marshmallow-caf"/>

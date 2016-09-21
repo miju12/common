@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Custom packages needed for building -->
+  <remove-project name="android_vendor_pa" path="vendor/pa" />
+  <project name="AOSPA-ghost/android_vendor_pa" path="vendor/pa" remote="github" revision="marshmallow-caf">
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
+
+  <remove-project name="platform/bootable/recovery" path="bootable/recovery" />
+  <project name="CyanogenMod/android_bootable_recovery" path="bootable/recovery" remote="github" revision="cm-13.0" />
+
+</manifest>
