@@ -6,5 +6,7 @@
   <project name="AOSPA-ghost/android_vendor_pa" path="vendor/pa" remote="github" revision="marshmallow-caf">
     <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+ 
+  <project name="android_frameworks_av" path="frameworks/av" remote="aospa" revision="marshmallow-caf" />
 
 </manifest>
